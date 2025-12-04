@@ -11,7 +11,7 @@
 > colcon build
 
 > ls -al
-# build log install 3가지가 생성이 되었는지 확인
+* build log install = 3가지가 생성이 되었는지 확인
 
 3. PEAK-CAN USB 장비의 드라이버 설치...
   3.1 준비 사항
