@@ -6,7 +6,20 @@
    
 
 2. ROS PKG 컴파일
-아래 경로로 이동하여, ros 컴파일 
+아래 경로로 이동하여, ros 컴파일
+
+
+    pip install -r requirements.txt 
+   
+
+
+
+
+
+
+
+
+
 
     cd robot_polytech_ws 
    
