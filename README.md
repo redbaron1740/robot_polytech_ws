@@ -7,28 +7,6 @@
 
 2. ROS PKG 컴파일
 아래 경로로 이동하여, ros 컴파일
-
-    cd robot_polytech_ws
-
-3. 
-4. 
-
-
-    pip install -r requirements.txt 
-   
-
-
-
-
-
-
-
-
-
-
-    cd robot_polytech_ws 
-   
-
     cd robot_polytech_ws 
    
 
@@ -37,6 +15,10 @@
 
     ls -al 
    
+3. 
+4. 
+   
+
 
 * build log install = 3가지가 생성이 되었는지 확인, 있다면
 
