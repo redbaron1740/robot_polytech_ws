@@ -11,6 +11,9 @@
     cd robot_polytech_ws 
    
 
+    cd robot_polytech_ws 
+   
+
     colcon build 
    
 
