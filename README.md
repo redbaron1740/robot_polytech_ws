@@ -8,13 +8,16 @@ pip install -r requirements.txt
 2. ROS PKG 컴파일
 아래 경로로 이동하여, ros 컴파일 
 
-    cd robot_ws/
- 
+    cd robot_polytech_ws 
+   
     colcon build
 
- ls -al
+    ls -al
  
-* build log install = 3가지가 생성이 되었는지 확인
+* build log install = 3가지가 생성이 되었는지 확인, 있다면
+    rm -rf build/ install/ log/
+
+
 
 3. PEAK-CAN USB 장비의 드라이버 설치...
   3.1 준비 사항
