@@ -1,23 +1,25 @@
 1. 새로운 pip pkg를 requirements.txt 파일을 생성
 
 아래 명령어로 한 번에 필요한 pip 패키지를 설치 가능
->
-pip install -r requirements.txt
 
+    pip install -r requirements.txt 
+   
 
 2. ROS PKG 컴파일
 아래 경로로 이동하여, ros 컴파일 
 
+
     cd robot_polytech_ws 
    
     colcon build
-
+    
     ls -al
+
  
 * build log install = 3가지가 생성이 되었는지 확인, 있다면
-    rm -rf build/ install/ log/
 
-
+    rm -rf build/ install/ log/ 
+   
 
 3. PEAK-CAN USB 장비의 드라이버 설치...
   3.1 준비 사항
