@@ -31,11 +31,10 @@ sudo apt-get install libpopt-dev libelf-dev
   
   예) peak-linux-driver-X.Y.Z.tar.gz
 
- >
-tar -xvf peak-linux-driver-X.Y.Z.tar.gz 
-  
- >
-cd peak-linux-driver-X.Y.Z
+    tar -xvf peak-linux-driver-X.Y.Z.tar.gz 
+   
+    cd peak-linux-driver-X.Y.Z 
+
 
   3.3 드라이버 컴파일 및 설치
  >
