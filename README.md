@@ -40,11 +40,13 @@
  > sudo modprobe pcan
 
   3.5 드라이버 설치 확인
- > pcaninfo
+ > 
  
-    or
+    pcaninfo 
     
- > cat /proc/pcan
+ >
+
+    cat /proc/pcan
 
 
 4. 등록된 PCAN bring up
