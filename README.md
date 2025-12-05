@@ -7,6 +7,9 @@
 
 2. ROS PKG 컴파일
 아래 경로로 이동하여, ros 컴파일
+
+    cd robot_polytech_ws
+   
     cd robot_polytech_ws 
    
 
@@ -15,8 +18,8 @@
 
     ls -al 
    
-3. 
 4. 
+5. 
    
 
 
