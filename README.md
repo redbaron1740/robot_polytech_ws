@@ -30,16 +30,43 @@
  > cd peak-linux-driver-X.Y.Z
 
   3.3 드라이버 컴파일 및 설치
-  > sudo make clean
+ > sudo make clean
+ 
+ > sudo make NET=NETDEV_SUPPORT 
   
-  > sudo make NET=NETDEV_SUPPORT 
-  
-  > sudo make install
+ > sudo make install
 
   3.4 커널 모듈 로드
-  > sudo modprobe pcan
+ > sudo modprobe pcan
 
   3.5 드라이버 설치 확인
-  > pcaninfo
+ > pcaninfo
+ 
     or
-  > cat /proc/pcan
+    
+ > cat /proc/pcan
+
+
+4. 등록된 PCAN bring up
+  4.1 ip link 로 등록 상황 파악
+>
+> ip link
+>
+>or
+>
+>dmesg | grep can
+>
+can0, can1 확인
+
+  4.2 can0, can1이 이미 할당되어 있다면,
+> sudo ip link set can2 down
+> sudo ip link set can2 up type can bitrate 500000
+> candump can2
+
+  4.3 할당되어 있지 않다면,
+> sudo ip link set can0 down
+> sudo ip link set can0 up type can bitrate 500000
+> candump can0
+ 
+
+  
